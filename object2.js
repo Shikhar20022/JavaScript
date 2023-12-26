@@ -1,5 +1,7 @@
 // const googleUser = new Object()
 
+const { JavaScript } = require("iconsax-react")
+
 const googleUser = {}
 
 googleUser.id = "123dc"
@@ -51,3 +53,28 @@ console.log(googleUser)
 console.log(Object.keys(googleUser));
 console.log(Object.values(googleUser));
 console.log(Object.entries(googleUser))
+
+
+const course = {
+      coursename: " JavaScript",
+      price: "999",
+      courseInstructor: "hitesh"
+}
+
+course.courseInstructor
+
+const {courseInstructor} = course
+
+console.log(courseInstructor);
+
+const navbar = ({company}) => {
+
+}
+
+navbar( company = "hitesh")
+
+const coursedetail = { 
+  name : "Shikhar",
+  subject : "JavaScript",
+  price: "free"
+}
