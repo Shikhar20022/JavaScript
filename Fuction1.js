@@ -22,7 +22,7 @@ addTwoNumbers(4,5);
 
 function userLoggedIn(username) {
     if(username === undefined){
-        console.log("please enter a username")
+        console.log("please enter a username") 
         return
     }
     return `${username} is logged in`
